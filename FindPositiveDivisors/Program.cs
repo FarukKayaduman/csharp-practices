@@ -9,7 +9,7 @@ namespace FindPositiveDivisors
             int number; // The number to calculate divisors of.
 
             Console.Write("Enter a number to calculate divisors: ");
-            number = Convert.ToInt32(Console.ReadLine()); // Get a number from user and assign to 'number' variable.
+            number = Convert.ToInt16(Console.ReadLine()); // Get a number from user and assign to 'number' variable.
 
             Console.Write("Divisors of " + number + ": 1 "); // '1' is a divisors for all numbers.
 
